@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #2b2b2b;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    background-color: #333333;
+    color: white;
+    width: 220px;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.icon {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.number {
+    font-size: 48px;
+    margin: 20px 0 5px 0;
+}
+
+.label {
+    font-size: 18px;
+    margin: 0;
+    color: #aaa;
+}
+
+.percentage {
+    font-size: 14px;
+    color: #00ff00;
+    margin: 10px 0;
+}
+
+.since {
+    font-size: 12px;
+    color: #999999;
+}
